@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocole</title>
+	
+	<script
+	  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+	  data-utmify-prevent-subids
+	  async
+	  defer
+	></script>
+
+	<script>
+	  window.pixelId = "6791b8ac4cb207845c679196";
+	  var a = document.createElement("script");
+	  a.setAttribute("async", "");
+	  a.setAttribute("defer", "");
+	  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+	  document.head.appendChild(a);
+	</script>
+	
+	<link rel="preload" href="https://scripts.converteai.net/7ee76c7b-b701-481f-b973-2b478faae041/players/67919b9e2688bd5126e4de77/player.js" as="script">
+	<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+	<link rel="preload" href="https://images.converteai.net/7ee76c7b-b701-481f-b973-2b478faae041/players/67919b9e2688bd5126e4de77/thumbnail.jpg" as="image">
+	<link rel="preload" href="https://cdn.converteai.net/7ee76c7b-b701-481f-b973-2b478faae041/67919aec003d942bc4a75f0e/main.m3u8" as="fetch">
+	<link rel="dns-prefetch" href="https://cdn.converteai.net">
+	<link rel="dns-prefetch" href="https://scripts.converteai.net">
+	<link rel="dns-prefetch" href="https://images.converteai.net">
+	<link rel="dns-prefetch" href="https://api.vturb.com.br">
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        .top-bar {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .video-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .image-section {
+            margin:0;
+        }
+        .image-section img {
+            width: 100%; /* Fill the entire width */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+        }
+        .sound-notice {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .sound-notice i {
+            margin-right: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+        .comments-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #F9FAFB;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .comments-header {
+            font-size: 14px;
+            color: #6C757D;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .comment {
+            display: flex;
+            align-items: flex-start;
+            padding: 15px 0;
+            border-bottom: 1px solid #E5E7EB;
+        }
+        .comment:last-child {
+            border-bottom: none;
+        }
+        .comment img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .comment-content {
+            flex: 1;
+        }
+        .comment-header {
+            font-weight: 600;
+            font-size: 14px;
+            color: #3A559F;
+            margin-bottom: 5px;
+        }
+        .comment-text {
+            font-size: 14px;
+            color: #6C757D;
+            margin-bottom: 10px;
+        }
+        .comment-actions {
+            font-size: 12px;
+            color: #3A559F;
+        }
+        .nested-comments {
+            margin-left: 50px;
+            border-left: 2px solid #E5E7EB;
+            padding-left: 15px;
+        }
+    </style>
+    <script>
+        function getCurrentDate() {
+            const today = new Date();
+            const day = String(today.getDate()).padStart(2, '0');
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const year = today.getFullYear();
+            return `${day}/${month}/${year}`;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('dynamic-date').textContent = getCurrentDate();
+        });
+    </script>
+</head>
+<body>
+
+    <!-- SESSION 1 -->
+    <div class="top-bar">
+        Cette présentation sera disponible uniquement jusqu'au <span id="dynamic-date" class="underline-highlight"></span>
+    </div>
+
+    <!-- SESSION 2 -->
+    <div class="image-section">
+        <img src="images/headline.webp" alt="Image principale">
+    </div>
+
+    <!-- SESSION 3 -->
+    <div class="video-section">
+        <div id="vid_67919b9e2688bd5126e4de77" style="position: relative; width: 100%; padding: 56.25% 0 0;"> <img id="thumb_67919b9e2688bd5126e4de77" src="https://images.converteai.net/7ee76c7b-b701-481f-b973-2b478faae041/players/67919b9e2688bd5126e4de77/thumbnail.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;" alt="thumbnail"> <div id="backdrop_67919b9e2688bd5126e4de77" style=" -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); position: absolute; top: 0; height: 100%; width: 100%; "></div> </div> <script type="text/javascript" id="scr_67919b9e2688bd5126e4de77"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/7ee76c7b-b701-481f-b973-2b478faae041/players/67919b9e2688bd5126e4de77/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+    </div>
+
+    <!-- SESSION 4 -->
+    <div class="sound-notice">
+        <i class="bi bi-volume-up-fill"></i>
+        Assurez-vous que le son est activé
+    </div>
+
+    <!-- SESSION 5 -->
+    <div class="comments-container">
+        <div class="comments-header">12 commentaires</div>
+        
+        <!-- Comment 1 -->
+        <div class="comment">
+            <img src="images/1.webp" alt="Alexia Davis">
+            <div class="comment-content">
+                <div class="comment-header">Alexia Davis</div>
+                <div class="comment-text">Enfin quelque chose qui fonctionne vraiment et qui s'attaque à la racine du problème. Mon mari souffrait depuis des années et le Viagra ne l'aidait plus, en fait, cela s'est aggravé avec le temps. Grâce à ce mélange, il me satisfait à nouveau au lit. Nous sommes soulagés ; cela tuait lentement notre relation. Merci beaucoup, docteur.</div>
+            </div>
+        </div>
+
+        <!-- Comment 2 -->
+        <div class="comment">
+            <img src="images/2.webp" alt="William Jackson">
+            <div class="comment-content">
+                <div class="comment-header">William Jackson</div>
+                <div class="comment-text">Enfin une vidéo rapide et précise qui résout mon problème.</div>
+            </div>
+        </div>
+
+        <!-- Comment 3 -->
+        <div class="comment">
+            <img src="images/3.webp" alt="Anthony Smith">
+            <div class="comment-content">
+                <div class="comment-header">Anthony Smith</div>
+                <div class="comment-text">Félicitations ! Vidéo rapide, qui va droit au but sans complications. 👍 Chaque seconde en vaut la peine, maintenant je sais pourquoi je souffrais de ce foutu problème et je vais m'en servir pour le résoudre.... Merci</div>
+            </div>
+        </div>
+
+        <!-- Comment 4 -->
+        <div class="comment">
+            <img src="images/4.webp" alt="Ryan Taylor">
+            <div class="comment-content">
+                <div class="comment-header">Ryan Taylor</div>
+                <div class="comment-text">Does it work? I've spent so much money on things that don't work.</div>
+                <div class="nested-comments">
+                    <div class="comment">
+                        <img src="images/5.webp" alt="Adam Wilsom">
+                        <div class="comment-content">
+                            <div class="comment-header">Adam Wilsom</div>
+                            <div class="comment-text">J'ai 53 ans et ma femme en a 31. J'étais tellement gêné de ne pas pouvoir la satisfaire, même avec la pilule bleue. Et j'avoue que j'avais peur qu'elle me quitte. Mais grâce à cette boisson que le Dr Robert m'a recommandée, je la prends tous les jours depuis un mois et ma femme est stupéfaite de moi, me demandant ce que je fais haha</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comment 5 -->
+        <div class="comment">
+            <img src="images/6.webp" alt="Gabriel Thomas">
+            <div class="comment-content">
+                <div class="comment-header">Gabriel Thomas</div>
+                <div class="comment-text">J'étais également dubitatif, je ne croyais en rien avant d'en avoir fait l'expérience moi-même. Mais comme c'est un médecin urologue qui le recommande... J'ai décidé d'essayer et c'est la seule méthode qui a fonctionné pour moi, ma femme est impressionnée haha TRES BON</div>
+                <div class="nested-comments">
+                    <div class="comment">
+                        <img src="images/7.avif" alt="Rose Parker">
+                        <div class="comment-content">
+                            <div class="comment-header">Rose Parker</div>
+                            <div class="comment-text">Je suis gênée d'en parler haha, mais je l'ai montré à mon mari et j'avoue que je vois déjà la différence 🤭.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comment 6 -->
+        <div class="comment">
+            <img src="images/8.avif" alt="Greta Robinson">
+            <div class="comment-content">
+                <div class="comment-header">Greta Robinson</div>
+                <div class="comment-text">Avant d'utiliser ce mélange, mon mari ne tenait même pas 2 minutes au lit, et maintenant il tient près de 40 minutes non-stop🤭😅.</div>
+            </div>
+        </div>
+
+        <!-- Comment 7 -->
+        <div class="comment">
+            <img src="images/9.webp" alt="Logan Anderson">
+            <div class="comment-content">
+                <div class="comment-header">Logan Anderson</div>
+                <div class="comment-text">J'étais sur le point de fermer la page parce que je pensais qu'il s'agissait d'une autre de ces méthodes qui ne fonctionnent pas en ligne. Mais ce que montre le Dr Robert est vraiment différent. Je suis content d'avoir regardé jusqu'à la fin. Cela fait 5 jours que j'ai commencé à utiliser ce mélange naturel et je sens déjà une énorme différence. Même ma femme l'a remarqué.</div>
+            </div>
+        </div>
+
+        <!-- Comment 8 -->
+        <div class="comment">
+            <img src="images/10.webp" alt="Mabel Evans">
+            <div class="comment-content">
+                <div class="comment-header">Mabel Evans</div>
+                <div class="comment-text">Mesdames qui vont montrer ça à leurs partenaires et passer des nuits incroyables, commentez 😏🤭👇.</div>
+                <div class="nested-comments">
+                    <div class="comment">
+                        <img src="images/11.webp" alt="Maria Edwards">
+                        <div class="comment-content">
+                            <div class="comment-header">Maria Edwards</div>
+                            <div class="comment-text">Mon mari vient de commencer, nous sommes enthousiastes.</div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="images/12.webp" alt="Vanessa Simmons">
+                        <div class="comment-content">
+                            <div class="comment-header">Vanessa Simmons</div>
+                            <div class="comment-text">C'est mon rêve 😅</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
